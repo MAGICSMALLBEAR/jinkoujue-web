@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>金口訣隱私權政策</title>
+<style>
+  :root {
+    --bg: #faf8f5; --fg: #1c1917; --muted: #6b6560;
+    --rule: #e0dad2; --accent: #7a5c3e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12100e; --fg: #ece7e1; --muted: #9a938c;
+      --rule: #2c2825; --accent: #c9a87c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Microsoft JhengHei", sans-serif;
+    line-height: 1.85; font-size: 17px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 .5rem; letter-spacing: .02em; }
+  h2 {
+    font-size: 1.1rem; margin: 2.75rem 0 .75rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule); color: var(--accent); letter-spacing: .04em;
+  }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.4rem; }
+  li { margin-bottom: .6rem; }
+  .note {
+    margin-top: 3rem; padding: 1rem 1.15rem; border-left: 3px solid var(--rule);
+    color: var(--muted); font-size: .92rem; line-height: 1.7;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>金口訣隱私權政策</h1>
+  <p class="updated">最後更新：2026-08-17</p>
+
+  <p>金口訣是一個在裝置上協助使用者起課、檢視課盤與保存課例的工具。本政策說明 App 所使用的資料與權限。</p>
+
+  <h2>資料處理</h2>
+  <ul>
+    <li>課例、註記、問事類型與使用者選取的設定，僅儲存在你的裝置本機。</li>
+    <li>App 不要求帳號，不建立使用者個人檔案，也不會將課例自動上傳至伺服器。</li>
+    <li>App 不含廣告、分析追蹤或第三方行為追蹤 SDK。</li>
+  </ul>
+
+  <h2>位置資訊</h2>
+  <p>若你允許位置權限，App 只會在前景使用時讀取目前位置，用於估算起課地點及日出、日落時間。位置資料不會被上傳、分享或持續於背景追蹤。拒絕位置權限後，仍可使用預設位置或手動輸入座標起課。</p>
+
+  <h2>匯出與分享</h2>
+  <p>文字、JSON 與圖片匯出僅會在你主動點選後，交由裝置的剪貼簿、檔案下載或系統分享功能處理。分享對象及其後續資料處理，由你選擇的應用程式或服務決定。</p>
+
+  <h2>聯絡方式與政策變更</h2>
+  <p>本政策尚未指定對外聯絡信箱。上架前，開發者應補上可公開聯絡的電子郵件與本政策的公開 HTTPS 網址。若資料處理方式改變，將在此頁更新日期與內容。</p>
+
+  <p class="note">
+    本頁由專案內的 <code>docs/隱私權政策.md</code> 轉製，內容逐段照錄。
+    <a href="./">← 回到金口訣</a>
+  </p>
+</main>
+</body>
+</html>
