@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "金口訣",
+  "short_name": "金口訣",
+  "description": "金口訣起課與課例記錄工具",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#12100E",
+  "background_color": "#12100E",
+  "icons": [
+    {
+      "src": "./pwa-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
