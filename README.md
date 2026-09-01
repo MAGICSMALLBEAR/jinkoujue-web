@@ -24,6 +24,10 @@ npx expo export --platform web
 `.nojekyll` 不可刪 —— GitHub Pages 的 Jekyll 會略過底線開頭的目錄，
 刪掉它 `_expo/` 底下的 JS bundle 會 404。
 
+`privacy.html` **自 2026-09-01 起亦為產出物** —— 政策原文在來源專案的
+`docs/隱私權政策.md`，HTML 版放在 `public/`，兩份的同步由來源專案的測試鎖住。
+改政策請改那邊，不要改這裡。
+
 `sw.js` 與 `manifest.json` 亦為產出物：前者由 `scripts/generateServiceWorker.ts`
 依當次匯出生成，後者來自來源專案的 `public/`。兩張圖示中，`pwa-maskable.png`
 的線稿收在遮罩安全區（約 61%）內，不可與 `pwa-icon.png` 對調。
